@@ -15,6 +15,7 @@ import com.example.crudapp.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
     private lateinit var spinner: Spinner
+    private lateinit var spinner2: Spinner
     private lateinit var binding: ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
